@@ -143,7 +143,11 @@ body.page-template-page-fullsingle-split p {
 .fs-split .split-image {
   width: 50%;
   height: 100vh;
+<<<<<<< HEAD
   background-image: url("/assets/images/background.jpg");
+=======
+  background-image: "../../assets/images/background.jpg";
+>>>>>>> ae2a847f56d471a00229623449f691a700ab6a53
   background-position: center center;
   background-size: cover;
 }
