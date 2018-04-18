@@ -222,9 +222,14 @@ a:hover {
   border-bottom: 1px dotted #CA486d;
 }
 
+.split-lists {
+	display: table;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
 .split-lists .split-list {
-  width: 30%;
-  display: inline-block;
+	display: table-cell;
   margin-bottom: 40px;
 }
 
