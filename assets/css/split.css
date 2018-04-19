@@ -200,6 +200,7 @@ a:hover {
 .split-bio {
   padding: 40px 0 40px 0;
   font-family: 'Lora', serif;
+	text-align: justify;
 }
 
 @media (max-width: 1200px) {
@@ -263,4 +264,8 @@ a:hover {
 .split-credit p {
   font-size: 12px;
   line-height: 14px;
+}
+
+em {
+	font-style: italic;
 }
