@@ -176,11 +176,24 @@ a:hover {
   }
 }
 
+@media (max-width: 500px) {
+	.fs-split .split-content .split-content-vertically-center {
+		padding: 20px;
+	}
+}
+
 .split-intro {
   font-weight: 600;
   font-size: 64px;
   line-height: 80px;
   letter-spacing: -2px;
+}
+
+@media (max-width: 400px) {
+	.split-intro {
+		font-size: 38px;
+		line-height: 60px;
+	}
 }
 
 .split-intro h1 {
@@ -213,6 +226,13 @@ a:hover {
   .split-bio {
     padding: 20px 0;
   }
+}
+
+@media (max-width: 400px) {
+	.split-bio {
+		font-size: 70%;
+		margin-bottom: 20px;
+	}
 }
 
 .split-bio a {
